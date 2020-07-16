@@ -23,7 +23,7 @@ from .logger import create_logger
 from .dictionary import Dictionary
 
 
-MAIN_DUMP_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'dumped')
+MAIN_DUMP_PATH = 'dumped'
 
 logger = getLogger()
 
